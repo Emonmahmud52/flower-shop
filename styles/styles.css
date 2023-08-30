@@ -21,6 +21,21 @@
     font-weight: 700;
 }
 
+.section-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
 /* main section-1 related styles */
 .flowers-container {
     display: flex;
@@ -34,14 +49,6 @@
     color: #272727;
     font-size: 50px;
     font-weight: 800;
-    margin-bottom: 30px;
-}
-
-.flower-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
     margin-bottom: 30px;
 }
 
@@ -62,25 +69,11 @@
     margin-bottom: 50px;
 }
 
-.hot-deal-title {
-    color: #272727;
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
 
 .hot-deal-title span {
     color: #E55473;
     font-size: 30px;
     font-weight: 800;
-}
-
-.hot-deal-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 30px;
 }
 
 .hot-deal-flower-image {
@@ -95,20 +88,6 @@
     margin: 0px 350px;
 }
 
-.instagram-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-
-.instagram-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
 .instagram-images {
     width: 70%;
     margin: 30px auto;
@@ -119,4 +98,34 @@
 .instagram-images img {
     width: 200px;
     height: 220px;
+}
+
+/* main section-4 related styles */
+
+.latest-deal {
+    width: 70%;
+    margin: 30px auto;
+    padding: 50px 0px;
+    text-align: center;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.latest-deal input {
+    border-radius: 5px;
+    background: #FFF;
+    padding: 10px 200px 10px 20px;
+    border: none;
+}
+
+.latest-deal button {
+    padding: 8px 15px;
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #E55473;
+    border: none;
 }
