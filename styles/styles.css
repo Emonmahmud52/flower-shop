@@ -42,7 +42,7 @@
     align-items: center;
     gap: 95px;
     padding: 50px 140px 0px;
-    margin-bottom: 140px;
+    margin-bottom: 50px;
 }
 
 .flowers-title {
@@ -56,6 +56,55 @@
     width: 600px;
     height: 500px;
 }
+
+/* Bonus section related styles */
+.featured-container {
+    text-align: center;
+    margin: 0px 350px;
+}
+
+.featured-flowers-images {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+
+.featured-item1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 50px 45px 0px 45px;
+    margin-bottom: 20px;
+}
+
+.featured-item2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 50px 45px 0px 45px;
+    margin-bottom: 20px;
+}
+
+.featured-item3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 50px 45px 0px 45px;
+    margin-bottom: 20px;
+}
+
+.featured-item1 img {
+    width: 200px;
+    height: 220px;
+}
+.featured-item2 img {
+    width: 200px;
+    height: 220px;
+}
+.featured-item3 img {
+    width: 200px;
+    height: 220px;
+}
+
 
 /* main section-2 related styles */
 .hot-deal-container {
@@ -82,7 +131,6 @@
 }
 
 /* main section-3 related styles */
-
 .instagram-container {
     text-align: center;
     margin: 0px 350px;
@@ -135,7 +183,7 @@
 footer {
     background-color: #111010;
     text-align: center;
-    padding: 125px 300px;
+    padding: 100px 300px;
 }
 
 footer h1 {
