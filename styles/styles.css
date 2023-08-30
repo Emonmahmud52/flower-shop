@@ -1,0 +1,50 @@
+/* Common Shared Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-primary {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* main section-1 styles Start */
+.flowers-container {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    padding: 50px 140px 0px;
+}
+
+.flowers-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.flower-image {
+    width: 600px;
+    height: 500px;
+}
