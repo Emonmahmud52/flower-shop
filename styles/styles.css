@@ -129,3 +129,38 @@
     background: #E55473;
     border: none;
 }
+
+/* Footer related Styles */
+
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 125px 300px;
+}
+
+footer h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+footer h1>span {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+footer h6 {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
