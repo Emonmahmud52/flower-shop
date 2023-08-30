@@ -59,6 +59,7 @@
     background: rgba(229, 84, 115, 0.05);
     text-align: center;
     padding: 50px 120px;
+    margin-bottom: 50px;
 }
 
 .hot-deal-title {
@@ -85,4 +86,37 @@
 .hot-deal-flower-image {
     width: 318px;
     height: 420px;
+}
+
+/* main section-3 related styles */
+
+.instagram-container {
+    text-align: center;
+    margin: 0px 350px;
+}
+
+.instagram-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instagram-images {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    gap: 25px;
+}
+
+.instagram-images img {
+    width: 200px;
+    height: 220px;
 }
